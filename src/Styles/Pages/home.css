@@ -1,0 +1,52 @@
+#home__page {
+    padding: 3rem;
+	width: 100vw;
+	height: 100vh;
+}
+
+#home__page .page__titulo main h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    letter-spacing: 2rem;
+    font-family: Stencil Std, fantasy;
+    
+}
+
+#home__page .page__titulo main p {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: lighter;
+    
+}
+
+#home__page .page__subtitulo {
+    display: flex;
+    justify-content: flex-start;
+      
+}
+
+#home__page .page__subtitulo h2 {
+    margin-top: 80px;
+    font-size: 35px;
+    padding-right: 200px;
+           
+}
+
+#home__page .page__img {
+    margin-top: -60px;
+    max-width: 600px;
+}
+
+#home__page .page__button {
+    margin-top: -90px;
+
+}
+
+#home__page .page__button .page__button--hover:hover {
+    color: rgb(194 156 136);
+
+}
+
+

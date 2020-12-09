@@ -1,0 +1,100 @@
+.navegacao {
+    background-color: rgb(242 233 206);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacao .navegacao__button {
+    color: rgb(70 102 115);
+    background-color: rgb(242 233 206);
+    border-width: 0;
+}
+
+.dicas__busca {
+    display: flex;
+   
+}
+
+.dicas__busca .dicas__busca--icon {
+    color: rgb(70 102 115);
+    margin-right: 10px;
+    
+}
+
+.dicas__busca .dicas__busca--input {
+    height:30px;
+    text-align: center;
+    border: 0;
+    border-radius: 8px;   
+}
+
+#dicas__page {
+    padding: 40px;
+}
+
+#dicas__page .card {
+    padding: 15px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 4px 4px rgb(70 102 115);
+    border-radius: 10px;
+    background-color: rgb(70 102 115);
+}
+
+
+#dicas__page .card h4 {
+    font-size: 40px;
+    margin-bottom: 10px;  
+}
+
+#dicas__page .card p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+
+#dicas__page .card .card__link {
+    margin-right: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(194 156 136);
+    border-radius: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+#dicas__page .card .card__app {
+    margin-right: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(194 156 136);
+    border-radius: 5px;
+    padding: 8px;
+    padding-top: 10px;
+}
+
+#dicas__page .card .card__link:hover {
+    background-color: rgb(217 202 173);
+}
+
+#dicas__page .card .card__app:hover {
+    background-color: rgb(217 202 173);
+}
+
+#dicas__page .card img {
+    margin-top: 20px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.footer {
+    background-color: rgb(242 233 206);
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(40 70 89);
+}
