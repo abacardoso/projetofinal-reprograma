@@ -1,0 +1,13 @@
+.formulario__aside {
+    position: fixed;
+    height: 100%;
+    padding: 20px 5px;
+    background: rgb(194 156 136);
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    right: 0;
+    width: 250px;
+}

@@ -3,6 +3,7 @@ import dicas from "../Services/dados"
 import { useEffect, useState } from "react"
 import { useHistory } from "react-router-dom"
 import { IoArrowBackCircleSharp, FaSearch, DiApple, DiAndroid } from "react-icons/all"
+import Formulario from "../Components/Formulario"
 
 const Dicas = () => {
   const [busca, setBusca] = useState("");
@@ -22,6 +23,8 @@ const Dicas = () => {
 
     return (
         <>
+          <Formulario/>
+          
           <nav className="navegacao">
              <button class="navegacao__button" onClick={goBack}>
              <IoArrowBackCircleSharp size={50} class="navegacao__button--hover"/> 
@@ -38,6 +41,7 @@ const Dicas = () => {
              onChange={e=>{setBusca(e.target.value)}}
              />
             </div>
+
 
             <div>
               {/* div vazia para auxiliar no css */}

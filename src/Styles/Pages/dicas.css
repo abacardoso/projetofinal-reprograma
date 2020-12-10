@@ -28,14 +28,17 @@
     height:30px;
     text-align: center;
     border: 0;
-    border-radius: 8px;   
+    border-radius: 8px; 
+    width: 300px;  
 }
 
+
 #dicas__page {
-    margin-right: 20px;
+    margin-right: 270px;
     margin-left: 20px;
     padding: 40px;
     font-weight: lighter;
+
     
 }
 
