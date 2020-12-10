@@ -23,7 +23,7 @@ const Home = () => {
               
               <div className="page__button">
               <Link to="/dicas">
-                <IoArrowForwardCircleSharp size={100} color="white" className="page__button--hover"/>              
+                <IoArrowForwardCircleSharp size={100} className="page__button--hover"/>              
               </Link>
               </div>
 

@@ -9,7 +9,9 @@
     color: rgb(70 102 115);
     background-color: rgb(242 233 206);
     border-width: 0;
+    cursor: pointer;
 }
+
 
 .dicas__busca {
     display: flex;
@@ -30,7 +32,11 @@
 }
 
 #dicas__page {
+    margin-right: 20px;
+    margin-left: 20px;
     padding: 40px;
+    font-weight: lighter;
+    
 }
 
 #dicas__page .card {
@@ -39,10 +45,12 @@
     box-shadow: 2px 2px 4px 4px rgb(70 102 115);
     border-radius: 10px;
     background-color: rgb(70 102 115);
+
 }
 
 
 #dicas__page .card h4 {
+    font-family: 'Oswald', sans-serif;
     font-size: 40px;
     margin-bottom: 10px;  
 }
@@ -50,6 +58,11 @@
 #dicas__page .card p {
     text-align: justify;
     margin-bottom: 10px;
+}
+
+#dicas__page .card .button__leiaMais {
+    cursor: pointer;
+    color: rgb(194 156 136);
 }
 
 

@@ -8,21 +8,23 @@ const Dicas = () => {
   const [busca, setBusca] = useState("");
   const [filtroDicas, setFiltroDicas] = useState([]);
   const { goBack } = useHistory();
-  // const [ leiaMais, setLeiaMais ] = useState(false);
-
+  const [ leiaMais, setLeiaMais ] = useState(false);
+  const buttonMais=leiaMais? "Leia menos <<<" : "Leia mais >>>";
+  
   useEffect(()=>{
      setFiltroDicas(
          dicas.filter(dica =>{
              return dica.titulo.includes(busca)
           })
-     );
-  },[busca]);
+     ); 
+  },[busca]); 
+
 
     return (
         <>
           <nav className="navegacao">
              <button class="navegacao__button" onClick={goBack}>
-             <IoArrowBackCircleSharp size={50}/> 
+             <IoArrowBackCircleSharp size={50} class="navegacao__button--hover"/> 
              </button>
                   
              <div className="dicas__busca">
@@ -33,7 +35,7 @@ const Dicas = () => {
              <input className="dicas__busca--input"
              type="text"
              placeholder="Buscar uma dica"
-             onChange={e=>{setBusca(e.target.value);}}
+             onChange={e=>{setBusca(e.target.value)}}
              />
             </div>
 
@@ -43,22 +45,27 @@ const Dicas = () => {
           </nav>
 
 
-
           <div id="dicas__page">
             {filtroDicas.map (dica=>{
                  return (
-                 <div key={dica.id} className="card">
-                  <h4>{dica.titulo}</h4>
-                  <p>{dica.descrição}</p>
-                  {dica.descrição2 && <p>{dica.descrição2}</p>}
-                  {dica.link && <a className="card__link" href={dica.link} target="blank" >Clique aqui para saber mais</a>}
-                  {dica.app && <a className="card__app" href={dica.app} target="blank" ><DiApple size={20} color="white"/></a>}
-                  {dica.app2 && <a className="card__app" href={dica.app2} target="blank" ><DiAndroid size={20} color="white"/></a>}
-                  {dica.imagem && <img src={dica.imagem} alt="Imagem ilustrando a dica citada."/>}
-                 </div>
+                   <>                   
+                   <div key={dica.id} className="card">
+                   <h4>{dica.titulo}</h4>
+                   <p>{dica.descrição}</p>
+
+                   <a className="button__leiaMais" onClick={()=> {setLeiaMais(!leiaMais)}}><p>{buttonMais}</p></a>
+                  
+                   {leiaMais && dica.descrição2 && <p>{dica.descrição2}</p>}
+                   {leiaMais && dica.link && <a className="card__link" href={dica.link} target="blank" >Clique aqui para saber mais</a>}
+                   {leiaMais && dica.app && <a className="card__app" href={dica.app} target="blank" ><DiApple size={20} color="white"/></a>}
+                   {leiaMais && dica.app2 && <a className="card__app" href={dica.app2} target="blank" ><DiAndroid size={20} color="white"/></a>}
+                   {leiaMais && dica.imagem && <img src={dica.imagem} alt="Imagem ilustrando a dica citada."/>}
+                   </div>
+                 </>
                  )
             })}
           </div>
+
 
           <footer className="footer">
             <p>Desenvolvido com React por Anna Beatriz Cardoso | 2020</p>
