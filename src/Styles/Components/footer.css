@@ -1,0 +1,27 @@
+
+.footer {
+    background-color: rgb(242 233 206);
+    height: 32px;
+}
+
+.footer--margin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(40 70 89);
+    font-size: 15px;
+    padding-top: 5px;
+    margin-right: 250px;
+}
+
+.footer a {
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.footer__icon--margin {
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+

@@ -10,4 +10,22 @@
     align-items: center;
     right: 0;
     width: 250px;
+
+    text-align: center;
+}
+
+.formulario__aside p {
+    margin-top: 10px;
+}
+
+.formulario__aside form {
+    margin-top: 10px;
+}
+
+.formulario__aside input {
+    margin-bottom: 10px;
+}
+
+.formulario__tag--mensagem {
+    padding-bottom: 40px;
 }

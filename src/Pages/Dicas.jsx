@@ -4,6 +4,7 @@ import { useEffect, useState } from "react"
 import { useHistory } from "react-router-dom"
 import { IoArrowBackCircleSharp, FaSearch, DiApple, DiAndroid } from "react-icons/all"
 import Formulario from "../Components/Formulario"
+import Footer from "../Components/Footer"
 
 const Dicas = () => {
   const [busca, setBusca] = useState("");
@@ -11,6 +12,7 @@ const Dicas = () => {
   const { goBack } = useHistory();
   const [ leiaMais, setLeiaMais ] = useState(false);
   const buttonMais=leiaMais? "Leia menos <<<" : "Leia mais >>>";
+
   
   useEffect(()=>{
      setFiltroDicas(
@@ -70,10 +72,8 @@ const Dicas = () => {
             })}
           </div>
 
+          <Footer/>
 
-          <footer className="footer">
-            <p>Desenvolvido com React por Anna Beatriz Cardoso | 2020</p>
-          </footer>
 
         </>
     )

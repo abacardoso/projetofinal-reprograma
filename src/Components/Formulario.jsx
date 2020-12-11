@@ -13,16 +13,18 @@ const Formulario = () => {
      <p>É fácil, só preencher os campos abaixo e nos enviar alguma dica que você usa e acha que todo mundo também deve conhecer!</p>
      <form onSubmit={handleSubmit(onSubmit)}>
      <label>Nome:</label>
-     <input type="text" name="nome" ref={register({ required: true })} /> {errors.firstName && "First name is required"}
+     <input type="text" pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" name="nome" ref={register({ required: true })} /> {errors.nome && "Favor digitar o nome"}
 
      <label>E-mail:</label>
-      <input type="email" name="email" ref={register({ required: true })} /> {errors.firstName && "First name is required"}
+      <input type="email" name="email" ref={register({ required: true })} /> {errors.email && "Favor digitar o e-mail"}
 
      <label>Mensagem:</label>
-     <input type="text" name="mensagem" ref={register({ min: 20 , max: 300 })} /> {errors.firstName && "First name is required"}
+     <input className="formulario__tag--mensagem" type="text" name="mensagem" ref={register({ required: true, min: 20 , max: 300 })} /> {errors.mensagem && "Favor digitar a mensagem que deseja enviar."}
 
-      <input type="submit" />
+      <input type="submit"/> 
+    
      </form>
+
     </aside>
   )
 }
