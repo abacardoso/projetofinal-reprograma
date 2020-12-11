@@ -63,14 +63,98 @@ const dicas = [
     },
     {
         id: 9,
-        titulo: "Time Graphics",
-        descrição: "",
-        descrição2: "",
-        link: "",
-        imagem: ""
+        titulo: "Time.Graphics",
+        descrição: "Se você estuda história, geografia, sociologia ou qualquer matéria que decorre pelo tempo, você já viu e utiliza de uma linha do tempo para estudar.",
+        descrição2: "A Time.Graphics é a maneira mais rápida, moderna e atraente de criar linhas do tempo. Com esta ferramenta você pode estudar, usar para suas suas realizações pessoais e até planejar projetos com precisão e alto padrão.",
+        link: "https://time.graphics/pt/",
+        imagem: "https://f-origin.hypotheses.org/wp-content/blogs.dir/5442/files/2019/04/Time.Graphics.png"
     },
     {
         id: 10,
+        titulo: "Language Tool",
+        descrição: "É uma ferramenta gratuita que verifica a ortografia e a gramática e sugere regras que vão além de palavras erradas. Você cola o texto no espaço disponível e tudo o que precisa ser revisado ganha destaque, sendo uma forma prática de identificar erros. ",
+        descrição2: "Você pode também adicionar o Language Tool no Google Docs. Depois de instalar, é só clicar na guia Complementos, selecionar o o Language Tool e escolher o idioma da verificação.",
+        descrição3: "Nota: Para quem trabalha com bastante palavras estrangeiras, pode ser bastante chato, visto que ele vai identificar todas elas como erradas e vai sugerir uma tradução.",
+        link: "https://languagetool.org/pt-BR",
+        imagem: "https://lh3.googleusercontent.com/ec7TBGWijl4EQ_lN7l5BBsjyAA1SOlIf9h6WA8Gymh-vesHJ2QEdsgC8xIEq3Vg_R0FYwaweUQ=w640-h400-e365-rj-sc0x00ffffff"
+    },
+    {
+        id: 11,
+        titulo: "Canal do Youtube para estudo - Débora Aladim",
+        descrição: "Débora Aladim é mineira, estudante de História na UFMG e desde 2013 faz vídeo-aulas de história, redação e dá dicas de estudo que ajudam milhões de estudantes e pessoas que querem aprender mais.",
+        descrição2: "Seus vídeos são assistidos por adolescentes, jovens pré-vestibulandos e adultos que estudam para concursos ou simplesmente se interessam pelos assuntos e curiosidades.",
+        descrição3: "Além dos vídeos gratuitos do youtube, ela também possui cursos e apostilas pagos em seu site.",
+        link: "https://www.youtube.com/user/deboraaladim",
+        imagem: "https://i.ytimg.com/vi/VG9xVK6pM5o/maxresdefault.jpg"
+    },
+    {
+        id: 12,
+        titulo: "Genially",
+        descrição: "Genially é uma plataforma multifunções especializada em recursos digitais para o desenvolvimento de estratégias gamificadas, o que oferece uma gama de possibilidades de criação de ferramentas de ensino.",
+        descrição2: "O objeto principal dessa plataforma é a exploração de ambientes semelhantes a slides, mas nem de longe a Genially se resume a isso. Ela é bastante completa e oferece uma série de recursos interessantes, como posteres, infográficos, apresentações, postcards, e conteúdos resumidos, todos eles interativos, calendários, mapas, linhas de estudos, jogos de tabuleiros, por meio de uma interface atraente e muito intuitiva.",
+        descrição3: "Ao entrar você precisa criar uma conta gratúita. Para começar a criar conteúdo que pode simplesmente clicar sobre a caixa “Criar um novo genially” ou mover em toda a largura da página pelos diferentes abas no topo: cartazes, apresentações, documentos, correios e outros. Em cada um deles é possível encontrar diferentes modelos. Após a conclusão do projeto será possível compartilhar através de redes sociais, incorporar-lo em um site (código html), salvar para o seu computador, duplicar-lo ou enviar via e-mail.",
+        link: "https://www.genial.ly/",
+        imagem: "https://cdn0.capterra-static.com/screenshots/2103711/238952.png"
+    },
+    {
+        id: 13,
+        titulo: "App Nota 1000",
+        descrição: "É um aplicativo totalmente gratuito que oferece conteúdo e correção de redação para quem vai prestar o ENEM em 2020.",
+        descrição2: "Com uma interface simples e moderna, o aplicativo promete ajudar ao máximo indicando temas possíveis para a prova, oferecendo uma série de dicas semanais com pontos de melhoria desde começar uma redação até chegar a desejada nota 1000, além de receber sua redação para os professores do app realizarem a correção de forma gratuita.",
+        descrição3: "Disponível para IOS e Android.",
+        app: "https://apps.apple.com/br/app/reda%C3%A7%C3%A3o-nota-1000-enem/id1448677758",
+        app2:"https://play.google.com/store/apps/details?id=com.goodbarber.notamil&hl=pt_BR&gl=US",
+        imagem: "https://p2.trrsf.com/image/fget/cf/1200/1200/filters:quality(85)/images.terra.com/2019/08/30/8d08f564-08dc-4a18-a068-e3357e98ec48.jpg"
+    },
+    {
+        id: 14,
+        titulo: "Planejativo",
+        descrição: "O Planejativo é uma plataforma digital que planeja e organiza seus estudos para o ENEM de forma completa por meio da inteligência artificial e de uma metodologia inovadora.",
+        descrição2: "Ela visa otimizar o seu processo de aprendizagem, permitindo que você foque no que é realmente importante: estudar.",
+        descrição3: "Além de auxiliar no foco, concentração, disciplina, motivação e otimização de tempo, pois ele vai além do cronograma. O plano de estudos não compreende apenas dia, hora e matéria a ser estudada, ele é estrategicamente criado para ajudar você a estudar em menos tempo e aumentar seu rendimento, já que é totalmente feito com base na sua rotina e nas suas necessidades. Com ele, você saberá exatamente o que fazer e, assim conseguirá cumprir suas obrigações de maneira organizada sem deixar espaço para procrastinação. O plano de estudos é, sem dúvida, a maneira mais rápida de alcançar a aprovação no Enem.",
+        link: "https://planejativo.com/",
+        imagem: "https://app.planejativo.com/uploads/novas/ff2d20d571d2df67c27ed31ef213c3b6.2%20-%20cronograma"
+    },
+    {
+        id: 15,
+        titulo: "Canal do Youtube para estudo - Professor Jubilut",
+        descrição: "O Professor Jubilut, é um youtuber, educador, palestrante e autor do canal Biologia Total, reconhecido como um dos maiores canais de ensino de biologia no YouTube brasileiro com 1,89 milhões de inscritos.",
+        descrição2: "Além dos vídeos gratuitos do youtube, o Professor também disponibiliza cursos pagos para preparação em Biologia, Química, Física e Matemática pro ENEM e Vestibulares.",
+        link: "https://www.youtube.com/user/jubilut",
+        imagem: "https://i.ytimg.com/vi/KwJsEnIMPj0/maxresdefault.jpg"
+    },
+    {
+        id: 16,
+        titulo: "Quizlet - App e desktop",
+        descrição: "O Quizlet é uma plataforma de estudos em geral que, inclusive, permite aprender outras línguas. Há a opção de ler sobre português, história, ciências, entre outras disciplinas.",
+        descrição2: "Através de um sistema de aprendizado por meio de flashcards, crie seus próprios questionários e resumos em um lado de um pedaço de papel digital e do outro a resposta. Também é possível compartilhar seus cards com amigos, acessar os de outras pessoas, jogar jogos educativos e estudar idiomas online.",
+        descrição3: "Disponível para IOS e Android.",
+        app: "https://apps.apple.com/br/app/quizlet/id546473125",
+        app2:"https://play.google.com/store/apps/details?id=com.quizlet.quizletandroid&hl=pt&gl=US",
+        link: "https://quizlet.com/pt-br",
+        imagem: "https://image.winudf.com/v2/image1/Y29tLnF1aXpsZXQucXVpemxldGFuZHJvaWRfc2NyZWVuXzBfMTU2NTEyODc4NV8wMzk/screen-0.jpg?fakeurl=1&type=.jpg"
+    },
+    {
+        id: 17,
+        titulo: "App RevisApp",
+        descrição: "O RevisApp é um aplicativo com as principais matérias cobradas no Ensino Médio, Ensino Fundamental, Enem e outros Vestibulares de forma simples, prática e objetiva.",
+        descrição2: "O app possui mais de 400 conteúdos sobre Ciências da Natureza (Química, Física, e Biologia), Ciências Humanas (História, Geografia, Sociologia e Filosofia), Linguagens (Português, Inglês e Literatura), Matemática e Redação. Além de centenas de exercícios com imagens e explicações para você fixar o conteúdo, um controle de revisões para que você saiba quais assunto ja estudou e uma seção de notas, onde você pode fazer anotações sobre seus estudos, lembretes e revisões.",
+        app: "https://apps.apple.com/br/app/revisapp/id1447918829",
+        app2:"https://play.google.com/store/apps/details?id=com.klawapps.revisapp&hl=pt_BR",
+        link: "http://www.estuderevisapp.com/",
+        imagem: "https://i.ytimg.com/vi/VBT_oOifVww/maxresdefault.jpg"
+    },
+    {
+        id: 18,
+        titulo: "",
+        descrição: "",
+        descrição2: "",
+        app: "",
+        app2:"",
+        imagem:  ""
+    },   
+    {
+        id: 19,
         titulo: "",
         descrição: "",
         descrição2: "",
@@ -78,7 +162,7 @@ const dicas = [
         imagem: ""
     },
     {
-        id: 8,
+        id: 20,
         titulo: "",
         descrição: "",
         descrição2: "",
@@ -86,7 +170,7 @@ const dicas = [
         imagem: ""
     },
     {
-        id: 8,
+        id: 21,
         titulo: "",
         descrição: "",
         descrição2: "",
@@ -94,7 +178,7 @@ const dicas = [
         imagem: ""
     },
     {
-        id: 8,
+        id: 22,
         titulo: "",
         descrição: "",
         descrição2: "",
@@ -102,7 +186,7 @@ const dicas = [
         imagem: ""
     },
     {
-        id: 8,
+        id: 23,
         titulo: "",
         descrição: "",
         descrição2: "",
@@ -110,78 +194,7 @@ const dicas = [
         imagem: ""
     },
     {
-        id: 8,
-        titulo: "",
-        descrição: "",
-        descrição2: "",
-        link: "",
-        imagem: ""
-    },
-    {
-        id: 8,
-        titulo: "",
-        descrição: "",
-        descrição2: "",
-        link: "",
-        imagem: ""
-    },
-    {
-        id: 8,
-        titulo: "",
-        descrição: "",
-        descrição2: "",
-        link: "",
-        imagem: ""
-    },
-    {
-        id: 8,
-        titulo: "",
-        descrição: "",
-        descrição2: "",
-        link: "",
-        imagem: ""
-    },    {
-        id: 8,
-        titulo: "",
-        descrição: "",
-        descrição2: "",
-        link: "",
-        imagem: ""
-    },
-    {
-        id: 8,
-        titulo: "",
-        descrição: "",
-        descrição2: "",
-        link: "",
-        imagem: ""
-    },
-    {
-        id: 8,
-        titulo: "",
-        descrição: "",
-        descrição2: "",
-        link: "",
-        imagem: ""
-    },
-    {
-        id: 8,
-        titulo: "",
-        descrição: "",
-        descrição2: "",
-        link: "",
-        imagem: ""
-    },
-    {
-        id: 8,
-        titulo: "",
-        descrição: "",
-        descrição2: "",
-        link: "",
-        imagem: ""
-    },
-    {
-        id: 8,
+        id: 24,
         titulo: "",
         descrição: "",
         descrição2: "",

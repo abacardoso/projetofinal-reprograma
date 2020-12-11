@@ -62,9 +62,10 @@ const Dicas = () => {
                    <a className="button__leiaMais" onClick={()=> {setLeiaMais(!leiaMais)}}><p>{buttonMais}</p></a>
                   
                    {leiaMais && dica.descrição2 && <p>{dica.descrição2}</p>}
-                   {leiaMais && dica.link && <a className="card__link" href={dica.link} target="blank" >Clique aqui para saber mais</a>}
+                   {leiaMais && dica.descrição3 && <p>{dica.descrição3}</p>}
                    {leiaMais && dica.app && <a className="card__app" href={dica.app} target="blank" ><DiApple size={20} color="white"/></a>}
                    {leiaMais && dica.app2 && <a className="card__app" href={dica.app2} target="blank" ><DiAndroid size={20} color="white"/></a>}
+                   {leiaMais && dica.link && <a className="card__link" href={dica.link} target="blank" >Clique aqui para saber mais</a>}
                    {leiaMais && dica.imagem && <img src={dica.imagem} alt="Imagem ilustrando a dica citada."/>}
                    </div>
                  </>

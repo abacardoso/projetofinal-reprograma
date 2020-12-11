@@ -8,7 +8,7 @@
 body{
     color: white;
     background: rgb(40 70 89);
-    max-height: 100vh;
+    height: 100vh;
 }
 
 body, input, button, textarea {
