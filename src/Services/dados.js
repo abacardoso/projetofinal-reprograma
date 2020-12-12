@@ -143,63 +143,6 @@ const dicas = [
         app2:"https://play.google.com/store/apps/details?id=com.klawapps.revisapp&hl=pt_BR",
         link: "http://www.estuderevisapp.com/",
         imagem: "https://i.ytimg.com/vi/VBT_oOifVww/maxresdefault.jpg"
-    },
-    {
-        id: 18,
-        titulo: "",
-        descrição: "",
-        descrição2: "",
-        app: "",
-        app2:"",
-        imagem:  ""
-    },   
-    {
-        id: 19,
-        titulo: "",
-        descrição: "",
-        descrição2: "",
-        link: "",
-        imagem: ""
-    },
-    {
-        id: 20,
-        titulo: "",
-        descrição: "",
-        descrição2: "",
-        link: "",
-        imagem: ""
-    },
-    {
-        id: 21,
-        titulo: "",
-        descrição: "",
-        descrição2: "",
-        link: "",
-        imagem: ""
-    },
-    {
-        id: 22,
-        titulo: "",
-        descrição: "",
-        descrição2: "",
-        link: "",
-        imagem: ""
-    },
-    {
-        id: 23,
-        titulo: "",
-        descrição: "",
-        descrição2: "",
-        link: "",
-        imagem: ""
-    },
-    {
-        id: 24,
-        titulo: "",
-        descrição: "",
-        descrição2: "",
-        link: "",
-        imagem: ""
     }
     
 
